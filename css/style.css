@@ -224,6 +224,19 @@ a{
     color: white;
     font-weight: bold;
 }
+.timeline__circle:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #213049;
+    border: 2px solid #333;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
 
 .boxh {
     font-size: 70px;
