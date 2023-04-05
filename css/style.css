@@ -505,7 +505,7 @@ a{
         font-size: 45px;
         line-height: 50px;
     }
-    p{
+    .banner-para{
         font-size: 16px;
     }
     .download-btn{
@@ -513,14 +513,36 @@ a{
         padding: 16px 25px;
         font-size: 18px;
     }
-    .banner-img{
+    .img-png{
         width: 400px;
     }
-    h1{
+    .boxh{
         text-align: center;
         font-size: 30px;
     }
-    h2{
+    .social-h{
+        text-align: center;
+        font-size: 30px;
+    }
+    .coins-h{
+        text-align: center;
+        font-size: 30px;
+        padding: 0px;
+    }
+    .chat-h{
+        text-align: center;
+        font-size: 30px;
+    }
+    .social-p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .chat-p{
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+    .timeline-h{
         font-size: 17px;
     }
     .box{
@@ -531,6 +553,7 @@ a{
     }
     .coins-list{
         font-size: 16px;
+        padding: 0;
     }
     .members-container{
         grid-template-columns: repeat(3, 100px);
@@ -557,6 +580,16 @@ a{
     }
     .box1{
         padding: 20px;
+        width: 100%;
+    }
+    .right{
+        padding: 0px;
+    }
+    .members-box{
+        padding: 0px;
+    }
+    .social-right{
+        align-items: center;
     }
 
 }
