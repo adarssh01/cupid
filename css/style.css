@@ -591,5 +591,8 @@ a{
     .social-right{
         align-items: center;
     }
+    .coins-box{
+        padding: 25px 0;
+    }
 
 }
